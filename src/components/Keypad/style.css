@@ -1,0 +1,24 @@
+ .circle {
+     border: 1px solid white;
+     border-radius: 50%;
+     height: 8px;
+     width: 8px;
+ }
+
+ .circle_white {
+   border: 1px solid white;
+   border-radius: 50%;
+   height: 8px;
+   width: 8px;
+   background-color: white;
+ }
+
+ .green_text {
+    color: 'green';
+    font-size: '14px';
+ }
+
+ .key_number {
+    width: '70px';
+    font-size: '24px';
+ }
