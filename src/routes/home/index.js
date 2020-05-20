@@ -17,7 +17,6 @@ function reducer(state = initialState, action) {
     case 'set_number':
       let codeTransform = state.code
       codeTransform += action.payload
-      console.log(codeTransform)
       return { ...state, code: codeTransform }
       break
 

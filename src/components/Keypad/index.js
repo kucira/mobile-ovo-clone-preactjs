@@ -19,7 +19,7 @@ const keyNumber = {
   outline: 'none',
 }
 
-function index({ onClick, code }) {
+function index({ onClick, code, testFunction }) {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const Ripple = require('proper-ripple').default
@@ -27,6 +27,10 @@ function index({ onClick, code }) {
       Ripple.bindTo(buttonNodes)
     }
   }, [])
+
+  const testClick = () => {
+    testFunction('ini value')
+  }
 
   return (
     <>

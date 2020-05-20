@@ -4,9 +4,9 @@ import Title from '../Title'
 function Menu() {
   return (
     <div className="container d-flex flex-row flex-wrap justify-content-between mt-4">
-      <button>
-        <Title style="color: black"> PLN </Title>
-      </button>
+      <a href="#" role="button" class="btn btn-danger btn-sm">
+        PLN
+      </a>
       <button>
         <Title style="color: black"> Pulsa </Title>
       </button>
